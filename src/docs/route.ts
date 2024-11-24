@@ -17,7 +17,7 @@ export default function docs(app: Express) {
         "/docs",
         swaggerUi.serve,
         swaggerUi.setup(swaggerOutput, {
-           customCss: css,
+            customCss: css,
         })
     );
 }
